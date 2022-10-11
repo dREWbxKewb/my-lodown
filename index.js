@@ -22,3 +22,14 @@ function each(collection, action) {
     }
 }
 module.exports.each = each;
+
+/**
+ * identity: Function takes in an input value and ruturns it unchanged.
+ * 
+ * @param { Value }: Function take in any input value.
+ * @return { Value }: Function returns input unchanged
+ */
+ function identity(value){
+    //Return value
+    return value;
+}
